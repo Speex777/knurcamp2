@@ -7,7 +7,7 @@
  */
 
 bool isPrime(int num) {
-    int n = 200; // liczy do jakiej liczby będzie maksymalnie sprawdzać.
+    int n = 200; // liczba do jakiej liczby będzie maksymalnie sprawdzać.
     int x = 0; // licznik potrzebny do dzielenia który maksymalnie osiągnie wartość n.
     int c = 0; // licznik który sprawdza przez ile liczb da się podaną liczbę podzielić jeśli jest więcej niż 2 to nie jest liczba Prime.
 
