@@ -29,7 +29,7 @@ void sortujPrzezWskazniki(int *tab, int rozmiar) {
                         printf("%d, ", tab[i]);
                     }
                 }
-                if(i ==rozmiar-2)
+                if(i == rozmiar-2)
                 {
                     printf("\n\nKoniec iteracji i wynosi rozmiar-1 (%d). \n",rozmiar-2);
                 }
