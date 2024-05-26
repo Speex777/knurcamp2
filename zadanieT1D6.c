@@ -12,7 +12,6 @@ void sortujPrzezWskazniki(int *tab, int rozmiar) {
     int i;
     int j;
     int t;
-
     for (i = 0; i < rozmiar; i++)
     {
         for (j = i + 1;j < rozmiar; j++)
@@ -22,6 +21,19 @@ void sortujPrzezWskazniki(int *tab, int rozmiar) {
                 t = *(tab + i);
                 *(tab + i) = *(tab + j);
                 *(tab + j) = t;
+                printf("\niteracja i = %d, j = %d :   ",i,j);
+                for (int i = 0; i < rozmiar; i++) {
+                    if (i == rozmiar - 1) {
+                        printf("%d... ", tab[i]);
+                    } else {
+                        printf("%d, ", tab[i]);
+                    }
+                }
+                if(i ==4)
+                {
+                    printf("\n\nKoniec iteracji i wynosi rozmiar-1 (%d). \n",rozmiar-2);
+                }
+
             }
         }
     }
